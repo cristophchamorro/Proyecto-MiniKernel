@@ -33,6 +33,7 @@ Para compilar y ejecutar el sistema en Ubuntu de WSL, se deben usar los siguient
     1. Para compilar: escribir 'make'
     2. Para ejecutar la simulacion: escribir './minikernel' o 'make run'
     3. Para ejecutar las pruebas: escribir 'make test'
-    4. Para limpiar archivos: escribir 'make clean'
+    4. Para terminar con la ejecucion del proyecto: ejecutar 'Ctrl + C'
+    5. Para limpiar archivos: escribir 'make clean'
 
 
