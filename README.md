@@ -12,7 +12,7 @@ El sistema esta compuesto de los siguientes componentes:
     ciertos intervalos de tiempo (burst_time) y tiempos de llegada (arrival_time) que son aleatorios
     2. Cola de Procesos: Estructura de datos compartida y protegida mediante mutex y variables condicionales
     para garantizar la integridad de los datos entre hilos.
-    3. CPUs simuladas: Es un conjunto de de hilos (cpu_threads) que extraen procesos de la cola de listos, ejecutan 
+    3. CPUs simuladas: Es un conjunto de hilos (cpu_threads) que extraen procesos de la cola de listos, ejecutan 
     un quantum, actualizan el estado del proceso y realizan el context switch.
     4. Metricas: Es un hilo independiente que genera reportes de rendimiento, calculando el tiempo de respuesta y 
     throughput. 
